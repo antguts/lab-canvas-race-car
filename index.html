@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles/style.css" />
     <title>Race Car</title>
   </head>
-  <body>
+  <body onkeydown="keyInput(event)">
+    
     <div class="game-intro">
       <img src="./images/logo.png" alt="" class="logo-img" />
       <br />
@@ -20,6 +21,6 @@
       <canvas id="canvas" width="500" height="700"></canvas>
     </div>
 
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/index.js" defer></script>
   </body>
 </html>
